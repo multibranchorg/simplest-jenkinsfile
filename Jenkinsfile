@@ -13,7 +13,7 @@
       }
       stage('Deploy') {
         steps {
-          sh 'echo "Hello Deploy World!"'
+          sh 'broken'
           sh 'echo "An extra step"'
         }
       }
